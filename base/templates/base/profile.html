@@ -1,0 +1,17 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <h2>Welcome to profile</h2>
+    <a href="{% url 'logout' %}">Logout</a>
+</div>
+
+<h3> Hi {{user}}</h3>
+
+
+
+{% endblock %}
+
+
+
+
